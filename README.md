@@ -133,7 +133,7 @@ You can deploy this bot anywhere.
 
 |                                                                                                                 | Name              | Deploy        |
 | --------------------------------------------------------------------------------------------------------------- | ----------------- | ------------- | 
-| [![Heroku](assets/img/heroku.png)](https://heroku.com)                                                          | Heroku            | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kevinnadar22/URL-Shortener-V2)                          |
+| [![Heroku](assets/img/heroku.png)](https://heroku.com)                                                          | Heroku            | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ps705112/URL-Shortener-V2)                          |
 | ![VPS](assets/img/vps.png) | VPS | [see guide](/guides/vps.md) |
 
 
