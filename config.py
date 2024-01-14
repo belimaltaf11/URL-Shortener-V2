@@ -9,15 +9,15 @@ def is_enabled(value, default):
         return default
 
 # Mandatory variables for the bot to start
-API_ID = int(os.environ.get("API_ID", "24236993"))
-API_HASH = os.environ.get("API_HASH", "0a56df2f25eefcace1c2e8948106dd66")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "5626398254:AAGJ_EXb3SZ1SXrueAn3UPmd9nnK9u30qAo")
-DROPLINK_API = os.environ.get("DROPLINK_API")
-MDISK_API = os.environ.get("MDISK_API", "x6DSI0QSU6rVSWemLmaJ")
+API_ID = int(os.environ.get("API_ID", "29081699"))
+API_HASH = os.environ.get("API_HASH", "4c4beb5bf57a6d52a4cda249a98f0980")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6233366267:AAF9Jxt2eAU6CBnk4Zp1mlk7kxSOc8o2ics")
+DROPLINK_API = os.environ.get("d0ac58b10c9edfe7e79c8df7aaf79dcb2b7928af")
+MDISK_API = os.environ.get("MDISK_API", "1QYeNzQTxPxUwmIT8Hvb")
 ADMINS = list(int(i.strip()) for i in os.environ.get("ADMINS").split(",")) if os.environ.get("ADMINS") else []
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "MdiskConvertor")
 DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Movie:AB@cluster0.g1lthiw.mongodb.net/?retryWrites=true&w=majority")
-WEBSITE = os.environ.get('WEBSITE')
+WEBSITE = os.environ.get('url.staus.in')
 
 #  Optionnal variables
 INCLUDE_DOMAIN = list(i.strip() for i in os.environ.get("INCLUDE_DOMAIN").split(",")) if os.environ.get("INCLUDE_DOMAIN") else []
